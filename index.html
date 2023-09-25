@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analytical Chart</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Assistant&family=Barriecito&family=Bebas+Neue&family=Borel&family=Caveat&family=Comic+Neue&family=DM+Serif+Display:ital@1&family=Dosis:wght@800&family=Libre+Baskerville&family=Lora:ital,wght@0,400;1,400;1,600&family=Montserrat&family=Mooli&family=Open+Sans:wght@300&family=Orbitron&family=Pacifico&family=Pangolin&family=Raleway&family=Roboto+Mono:ital,wght@1,300&family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+    <style>
+        .image {
+            height:250px;
+            display: block;
+        }
+    
+        .container {
+            background-color: #26577C;
+            font-family: 'Raleway', sans-serif;
+            max-width:600px;
+
+        }
+        .title {
+            font-size: 2.5rem;
+            font-weight: bolder;
+            margin-left: 2%;
+            color:#EBE4D1;
+            
+        }
+        .sub {
+            font-size: 2rem;
+            margin-left: 2%;
+            margin-top: 2%;
+            font-weight: bold;
+            font-family: 'Lora', serif;
+            
+        }
+        span {
+            margin-left: 55%;
+            color: red;
+            text-align: right;
+
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin:0;
+            padding: 10%;
+      
+        }
+        .month {
+            font-size: 2rem;
+            text-align: center;
+            background-color:#E55604;
+            height: 50px;
+            color:white;
+            padding: 0;
+            margin-bottom: 20px;
+            font-family: 'Montserrat', sans-serif;
+        }
+        .items {
+            display:flex;
+
+            font-family: 'Assistant', sans-serif;
+            margin-left: 2%;
+            font-size: 1.5rem;
+            margin-bottom: 5%;
+        }
+        @media (max-width:480px) {
+           body {
+            padding: 100%;
+
+            }
+        }
+    
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="title">Withdrawals</div>
+        <div class="sub">30 + <br> Total Per week</div>
+        <div class="image"><img src="./analytical-gif.gif" alt="analytical-chart"></div>
+        <div class="month">January</div>
+         <div class="items">Wednesday<span> -20,000</span></div>
+        <div class="items">Thursday<span> -1,560,000</span></div>
+    </div>
+
+</body>
+</html>
